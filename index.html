@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MN | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="nav-logo"><span>M</span>alaya <span>N</span>ayak</div>
+        <span class="logo-short">MN</span>
+
+        <ul class="nav-menu" id="sidemenu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+
+
+    <!-- Home -->
+    <section id="home">
+        <img src="assets/mn portfolio image.jpeg" alt="Profile">
+        <h1>Hi, I'm <span>Malaya Nayak</span></h1>
+        <p>Java Full Stack Developer</p>
+        <button id="resume-btn"><i class="fa-solid fa-file-arrow-down"></i>Download Resume</button>
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+        <h2>Education</h2>
+
+        <div class="education-container">
+            <div class="education-card">
+                <h3>Master of Computer Applications (MCA)</h3>
+                <p class="college">NIST University, Berhampur, Odisha</p>
+                <span class="year">2023 – 2025</span>
+            </div>
+
+            <div class="education-card">
+                <h3>Bachelor of Science (Physics)</h3>
+                <p class="college">Berhampur University, Odisha</p>
+                <span class="year">2019 – 2023</span>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2 style="color: #fff;">Skills</h2>
+
+        <div id="skills-container">
+            <div class="card skill-card"><i class="fa-brands fa-java"></i>Java</div>
+            <div class="card skill-card"><i class="fa-solid fa-power-off"></i>Spring Boot</div>
+            <div class="card skill-card"><i class="fa-brands fa-html5"></i>HTML</div>
+            <div class="card skill-card"><i class="fa-brands fa-css3-alt"></i>CSS</div>
+            <div class="card skill-card"><i class="fa-brands fa-js"></i>JavaScript</div>
+            <div class="card skill-card"><i class="fa-brands fa-react"></i>React</div>
+            <div class="card skill-card"><i class="fa-solid fa-database"></i>SQL</div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2 style="color: #fff;">Projects</h2>
+
+        <div id="project-container">
+            <div class="card project-card">
+                <h3>International Course Management System (Group Project)</h3>
+                <p style="color: #fff;">International Course Management System is a web application that allows students
+                    to explore international university courses, with admin-managed course data and a user-friendly
+                    interface showcasing my full-stack development skills.</p>
+
+                <a href="https://github.com/MalayaNayak2002/ICMS-Project" target="_blank" class="project-github">
+                    View on GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    
+
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2 style="color: #fff;">Contact Me</h2>
+
+        <p style="color: #fff;"><i class="fa-solid fa-envelope"></i></i> Email: <a
+                href="mailto:malayanayak442002@email.com">
+                malayanayak442002@email.com
+            </a></p>
+
+        <div class="contact-links">
+            <a href="https://www.linkedin.com/in/malaya-nayak" target="_blank" class="contact-btn linkedin">
+                <i class="fa-brands fa-linkedin"></i>
+                LinkedIn
+            </a>
+
+            <a href="https://github.com/MalayaNayak2002" target="_blank" class="contact-btn github">
+                <i class="fa-brands fa-github"></i>
+                GitHub
+            </a>
+        </div>
+    </section>
+    <div class="copyright">
+        <p style="color: #fff;">© 2026 Malaya Nayak. All rights reserved.</p>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
