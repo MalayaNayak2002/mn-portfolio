@@ -40,8 +40,8 @@ const resumeBtn = document.getElementById("resume-btn");
 
 resumeBtn.addEventListener("click", () => {
   const link = document.createElement("a");
-  link.href = "assets/Malaya Nayak Resume Hyd.pdf";
-  link.download = "Malaya Nayak Resume Hyd.pdf";
+  link.href = "assets/Malaya Nayak Resume.pdf";
+  link.download = "Malaya Nayak Resume.pdf";
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
